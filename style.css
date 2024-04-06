@@ -1,0 +1,82 @@
+body {
+    background-image: url("BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .container {
+    text-align: center; 
+    color: white; 
+  }
+  
+  h1 {
+    font-family: 'Lucida Bright', cursive;
+    color: grey;
+
+  }
+  
+  h2 {
+    font-family: 'Lucida Bright', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid;
+    background: '#99DA0' ;
+    color: grey;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+  }
+  
+  .Video,
+  .Audio,
+  li {
+    list-style: none;
+  }
+  
+  .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin:auto;
+  }
+  
+  .gambar-description {
+    margin-bottom: 30px;
+  }
+  
+  .gambar {
+    width: 200px;
+    height: 300px;
+  }
+  
+  .foto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .foto-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .foto img {
+    width: 250px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  
